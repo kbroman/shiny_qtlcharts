@@ -9,7 +9,7 @@ Testing use of R/qtlcharts in shiny.
 - [ ] iplotCorr
 - [ ] iplotMap
 - [ ] iplotMScanone
-- [ ] iplotPXG
+- [x] iplotPXG
 - [x] iplot
 - [ ] iplotRF
 - [ ] iplotScanone
