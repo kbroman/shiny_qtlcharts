@@ -12,7 +12,7 @@ Testing use of R/qtlcharts in shiny.
 - [x] iplotPXG
 - [x] iplot
 - [ ] iplotRF
-- [ ] iplotScanone
+- [x] iplotScanone
 - [ ] iplotScantwo
 - [x] itriplot
 - [ ] scat2scat
