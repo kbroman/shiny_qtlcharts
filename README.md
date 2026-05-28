@@ -7,7 +7,7 @@ Testing use of R/qtlcharts in shiny.
 - [ ] iheatmap
 - [ ] ipleiotropy
 - [ ] iplotCorr
-- [ ] iplotCurves
+- [x] iplotCurves
 - [ ] iplotMap
 - [ ] iplotMScanone
 - [x] iplotPXG
