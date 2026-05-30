@@ -17,7 +17,7 @@ server <- function(input, output, session) {
         y <- rnorm(input$n, input$eff, 1)
         data.frame(value=c(x,y), group=rep(1:2, rep(input$n, 2))) })
 
-    output$plot <- idotplot_render( iplot(dataset()$group, dataset()$value) )
+    output$plot <- idotplot_render( idotplot(dataset()$group, dataset()$value) )
 
 }
 
