@@ -9,7 +9,7 @@ dimnames(expr) <- list(paste0("ind", 1:n.ind),
 expr <- expr[sample(1:n.ind),]
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts iboxplot"),
   sidebarLayout(
       sidebarPanel(
           radioButtons(inputId="sort", label="Sort", choices=list("Yes"=TRUE, "No"=FALSE))

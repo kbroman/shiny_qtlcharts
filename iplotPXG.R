@@ -10,7 +10,7 @@ markers <- markernames(hyper)
 phe <- c("bp", "sqrt_bp")
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts iplotPXG"),
   sidebarLayout(
     sidebarPanel(
         selectInput("marker", "marker:", choices=markers),

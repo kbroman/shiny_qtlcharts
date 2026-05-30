@@ -2,7 +2,7 @@ library(shiny)
 library(qtlcharts)
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts idotplot"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("n", "sample size:", min=1, max=1000, value=10),

@@ -8,7 +8,7 @@ ti <- as.numeric(sub("T", "", colnames(phe)))
 
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts iplotCurves"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("time1", "Time 1:", min=min(ti), max=max(ti), value=0, step=diff(ti[1:2])),

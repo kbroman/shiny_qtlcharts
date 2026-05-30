@@ -3,7 +3,7 @@ library(qtlcharts)
 library(broman)
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts iplot"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("n", "sample size:", min=1, max=1000, value=50),

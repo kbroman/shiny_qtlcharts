@@ -7,7 +7,7 @@ fake.bc <- calc.genoprob(fake.bc, step=1)
 out <- scanone(fake.bc, phe=1:2, method="em")
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts iplotScanone"),
   sidebarLayout(
     sidebarPanel(
       selectInput("lodcolumn", "phenotype:", choices=colnames(out)[3:4]),

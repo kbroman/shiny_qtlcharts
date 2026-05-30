@@ -9,7 +9,7 @@ o <- order(rowMeans(grav$pheno))
 
 
 ui <- fluidPage(
-  titlePanel("R/qtlcharts"),
+  titlePanel("R/qtlcharts iheatmap"),
   sidebarLayout(
     sidebarPanel(
           radioButtons(inputId="sort", label="Sort rows", choices=list("Yes"=TRUE, "No"=FALSE))
