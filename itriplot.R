@@ -8,7 +8,7 @@ ui <- fluidPage(
       sliderInput("n", "sample size per:", min=1, max=1000, value=50),
       sliderInput("n_draws", "number of draws:", min=1, max=1000, value=50)
     ),
-    mainPanel(itriplot_output("triplot"))
+    mainPanel(itriplot_output("plot"))
   )
 )
 server <- function(input, output, session) {
@@ -17,10 +17,10 @@ server <- function(input, output, session) {
         colnames(x) <- LETTERS[1:3]
         x/rowSums(x)
     })
-  
-    output$triplot <- itriplot_render( itriplot(dataset()) )
 
-  
+    output$plot <- itriplot_render( itriplot(dataset()) )
+
+
 }
 
 
