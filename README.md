@@ -17,3 +17,10 @@ Testing use of R/qtlcharts in shiny.
 - [ ] iplotScantwo
 - [x] itriplot
 - [ ] scat2scat
+
+
+---
+
+### License
+
+Licensed under [GPL-3](https://www.r-project.org/Licenses/GPL-3).
