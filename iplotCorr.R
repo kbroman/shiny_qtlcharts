@@ -4,10 +4,10 @@ library(qtlcharts)
 data(geneExpr)
 
 corp <- cor(geneExpr$expr, use="pairwise.complete.obs")
-op <- hclust(as.dist(1-pearson))$order
+op <- hclust(as.dist(1-corp))$order
 
 cors <- cor(geneExpr$expr, method="spearman", use="pairwise.complete.obs")
-os <- hclust(as.dist(1-spearman))$order
+os <- hclust(as.dist(1-cors))$order
 
 
 ui <- fluidPage(
