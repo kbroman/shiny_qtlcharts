@@ -13,7 +13,7 @@ ui <- fluidPage(
   titlePanel("R/qtlcharts iplotPXG"),
   sidebarLayout(
     sidebarPanel(
-        selectInput("marker", "marker:", choices=markers),
+        selectInput("marker", "marker:", choices=markers, selected="D4Mit214"),
         selectInput("phenotype", "phenotype:", choices=phe)
     ),
     mainPanel(idotplot_output("plot"))
