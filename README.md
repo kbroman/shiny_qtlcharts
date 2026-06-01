@@ -19,7 +19,7 @@ source(url, echo=TRUE)
 - [ ] iplotMScanone
 - [x] iplotPXG
 - [x] iplot
-- [ ] iplotRF
+- [x] iplotRF
 - [x] iplotScanone
 - [x] iplotScantwo
 - [x] itriplot
