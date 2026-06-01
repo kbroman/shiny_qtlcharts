@@ -12,7 +12,7 @@ source(url, echo=TRUE)
 - [x] iboxplot
 - [x] idotplot
 - [x] iheatmap
-- [ ] ipleiotropy
+- [x] ipleiotropy
 - [x] iplotCorr
 - [x] iplotCurves
 - [x] iplotMap
