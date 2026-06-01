@@ -21,7 +21,7 @@ source(url, echo=TRUE)
 - [x] iplot
 - [ ] iplotRF
 - [x] iplotScanone
-- [ ] iplotScantwo
+- [x] iplotScantwo
 - [x] itriplot
 - [ ] scat2scat
 
