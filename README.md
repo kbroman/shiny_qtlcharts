@@ -9,22 +9,6 @@ url <- "https://raw.githubusercontent.com/kbroman/shiny_qtlcharts/main/iplotPXG.
 source(url, echo=TRUE)
 ```
 
-- [x] iboxplot
-- [x] idotplot
-- [x] iheatmap
-- [x] ipleiotropy
-- [x] iplotCorr
-- [x] iplotCurves
-- [x] iplotMap
-- [ ] iplotMScanone
-- [x] iplotPXG
-- [x] iplot
-- [x] iplotRF
-- [x] iplotScanone
-- [x] iplotScantwo
-- [x] itriplot
-- [x] scat2scat
-
 
 ---
 
