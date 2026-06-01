@@ -1,6 +1,6 @@
 ## tests of R/qtlcharts in shiny
 
-Simple examples of use of R/qtlcharts in shiny apps.
+Simple examples of use of R/qtlcharts in [shiny apps](https://shiny.posit.co/).
 To see them in action, use `source` with `echo=TRUE`.
 For example
 
